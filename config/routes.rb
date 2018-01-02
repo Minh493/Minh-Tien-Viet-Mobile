@@ -1,3 +1,13 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get "page/index"
+
+  get "page/help"
+
+  get "page/about"
+
+  get "page/contact"
+
+  root "page#index"
+  get  "/order", to: "page#order"
+
 end

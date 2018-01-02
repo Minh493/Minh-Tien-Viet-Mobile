@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Project1</title>
+    <title>Minh Tien Viet Mobile</title>
     <%= csrf_meta_tags %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbolinks-track": "reload" %>
   </head>
-
   <body>
-    <%= yield %>
+  <%= render "layouts/header" %>
+  <%= render "layouts/body" %>
+    <div class="container">
+      <%= yield %>
+      <%= render "layouts/footer" %>
+    </div>
   </body>
 </html>
