@@ -1,0 +1,20 @@
+<% provide :title, t(".login") %>
+<div>
+  <div class="">
+    <a class="hiddenanchor" id="tologin"></a>
+    <div id="wrapper">
+      <div id="login" class="animate form">
+        <section class="login_content">
+          <h1>Login Form</h1>
+          <%= form_for(:admin, url: index_path, method: :get) do |f| %>
+          <%= f.label :user_name %>
+          <%= f.text_field :user_name, class: "form-control" %>
+          <%= f.label :user_pass %>
+          <%= f.password_field :user_password, class: "form-control" %>
+          <%= f.submit "Log in", class: "btn btn-primary" %>
+          <% end %>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>

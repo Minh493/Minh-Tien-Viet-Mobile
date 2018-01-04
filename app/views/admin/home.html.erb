@@ -1,0 +1,78 @@
+<% provide :title, t(".home")%>
+<div class="body">
+  <div id="wrapper">
+    <%= render "admin/form" %>
+    <div id="page-wrapper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="page-header"><%= t(".dashboard")%><small><%= t(".overview")%></small></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <div class="row">
+                  <div class="col-xs-3">
+                    <i class="fa fa-comments fa-5x"></i>
+                  </div>
+                <div class="col-xs-9 text-right">
+                  <div class="huge">26</div>
+                  <div><%= t(".comment")%></div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="panel panel-green">
+              <div class="panel-heading">
+                <div class="row">
+                  <div class="col-xs-3">
+                    <i class="fa fa-tasks fa-5x"></i>
+                  </div>
+                  <div class="col-xs-9 text-right">
+                    <div class="huge">12</div>
+                    <div><%= t(".task")%></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+         </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="panel panel-yellow">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-xs-3">
+                  <i class="fa fa-shopping-cart fa-5x"></i>
+                </div>
+                <div class="col-xs-9 text-right">
+                  <div class="huge">124</div>
+                  <div><%= t(".neworder")%></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="panel panel-red">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-xs-3">
+                  <i class="fa fa-support fa-5x"></i>
+                </div>
+                <div class="col-xs-9 text-right">
+                  <div class="huge">13</div>
+                    <div><%= t(".support")%></div>
+                </div>
+              </div>
+            </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
