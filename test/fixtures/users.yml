@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  product_id: 1
-  product_count: 1
-  total: 1.5
+  name: 
+  pass: 
+  admin: false
 
 two:
-  product_id: 1
-  product_count: 1
-  total: 1.5
+  name: 
+  pass: 
+  admin: false

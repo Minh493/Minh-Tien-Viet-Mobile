@@ -1,7 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
+  product_name: MyString
+  product_price: 1.5
+  category: 1
+  product_status: 
+  describe: MyText
+  product_image: MyString
 
 two:
-  name: MyString
+  product_name: MyString
+  product_price: 1.5
+  category: 1
+  product_status: 
+  describe: MyText
+  product_image: MyString
